@@ -1,0 +1,202 @@
+[
+    {
+        "outputFile": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 386,
+                        "endColumn": 35,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 49,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 46,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 114,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 149,
+                        "endColumn": 110,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 53,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 99,
+                        "endColumn": 49,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 129,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 260,
+                        "endColumn": 125,
+                        "endOffset": 385
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 386,
+                        "endColumn": 35,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 49,
+                    "endOffset": 140
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 53,
+                        "endColumn": 46,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 145,
+                    "endColumn": 114,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 149,
+                        "endColumn": 110,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 53,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 99,
+                        "endColumn": 49,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 129,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 260,
+                        "endColumn": 125,
+                        "endOffset": 385
+                    }
+                }
+            }
+        ]
+    }
+]

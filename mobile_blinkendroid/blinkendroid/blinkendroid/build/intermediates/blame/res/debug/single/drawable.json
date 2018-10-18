@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\player.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\drawable\\player.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid_transparent.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid_transparent.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid_watermark.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid_watermark.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid_watermark.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid_watermark.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\player.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\drawable\\player.png"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\drawable\\blinkendroid_transparent.png",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\drawable\\blinkendroid_transparent.png"
+    }
+]

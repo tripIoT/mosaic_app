@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\player_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\layout\\player_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\login_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\layout\\login_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\player_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\layout\\player_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\login_connect_to_ip_dialog_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\layout\\login_connect_to_ip_dialog_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\login_connect_to_ip_dialog_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\layout\\login_connect_to_ip_dialog_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\login_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\layout\\login_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\server_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid-master\\blinkendroid\\src\\main\\res\\layout\\server_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\build\\intermediates\\res\\merged\\debug\\layout\\server_content.xml",
+        "source": "C:\\Users\\yanke\\Desktop\\blinkendroid\\blinkendroid\\src\\main\\res\\layout\\server_content.xml"
+    }
+]
