@@ -12,7 +12,7 @@ public class VideoCropAdminActivity extends VideoCropActivity implements Texture
     @Override
     void initView() {
         super.initView();
-        FrameLayout rootView = (FrameLayout) findViewById(R.id.rootView);
+        FrameLayout rootView = findViewById(R.id.rootView);
         rootView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {

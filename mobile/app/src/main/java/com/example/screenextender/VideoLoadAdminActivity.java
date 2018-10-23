@@ -23,10 +23,12 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
     private boolean oneIsDone = false;
 
     private Socket mSocket;
+
     {
         try {
             mSocket = IO.socket("http://infiniscreen.herokuapp.com");
-        } catch (URISyntaxException e) {}
+        } catch (URISyntaxException e) {
+        }
     }
 
     private DownloadManager downloadManager;
@@ -42,8 +44,8 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    if(oneIsDone) {
-                        startActivity(nextIntent);
+                    if (oneIsDone) {
+                        startIntent();
                     } else {
                         oneIsDone = true;
                     }
@@ -56,25 +58,26 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-
         //xOrigin = getIntent().getExtras().getFloat("xOrigin");
         //yOrigin = getIntent().getExtras().getFloat("yOrigin");
-
         mSocket.on("all_ready", onAllReady);
 
+        // delete the previous video file
+        File file0 = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+        File file1 = new File(file0, "Infiniscreen/vid.mp4");
+        if (file1.exists()) {
+            startIntent();
+        } else {
+            downloadVideoAdmin();
+        }
 
+        setContentView(R.layout.content_video_load);
+        this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    }
+
+    private void downloadVideoAdmin() {
+        downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
         String convertedUrl = getIntent().getExtras().getString("converted_url");
-
-        nextIntent = new Intent(VideoLoadAdminActivity.this, VideoCropAdminActivity.class);
-
-        nextBundle = new Bundle();
-        nextBundle.putFloat("xOrigin", getIntent().getExtras().getFloat("xOrigin"));
-        nextBundle.putFloat("yOrigin", getIntent().getExtras().getFloat("yOrigin"));
-        nextBundle.putFloat("width", getIntent().getExtras().getFloat("width"));
-        nextBundle.putFloat("height", getIntent().getExtras().getFloat("height"));
-
-        nextIntent.putExtras(nextBundle);
 
         Uri downloadUri = Uri.parse(convertedUrl);
         DownloadManager.Request request = new DownloadManager.Request(downloadUri);
@@ -90,11 +93,11 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
                 // get the refid from the download manager
                 long referenceId = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
 
-                if(referenceId == refid) {
+                if (referenceId == refid) {
                     runOnUiThread(new Runnable() {
                         public void run() {
-                            if(oneIsDone) {
-                                startActivity(nextIntent);
+                            if (oneIsDone) {
+                                startIntent();
                             } else {
                                 oneIsDone = true;
                             }
@@ -104,31 +107,27 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
             }
         };
 
-        // delete the previous video file
-        File file0 = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File file1 = new File(file0, "Infiniscreen/vid.mp4");
-        if(file1.exists()) {
-            file1.delete();
-        }
-
 
         request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mp4");
-
         registerReceiver(onComplete,
                 new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
-
         refid = downloadManager.enqueue(request);
+    }
 
-        setContentView(R.layout.content_video_load);
-        this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    private void startIntent() {
+        nextIntent = new Intent(VideoLoadAdminActivity.this, VideoCropAdminActivity.class);
+        nextBundle = new Bundle();
+        nextBundle.putFloat("xOrigin", getIntent().getExtras().getFloat("xOrigin"));
+        nextBundle.putFloat("yOrigin", getIntent().getExtras().getFloat("yOrigin"));
+        nextBundle.putFloat("width", getIntent().getExtras().getFloat("width"));
+        nextBundle.putFloat("height", getIntent().getExtras().getFloat("height"));
+        nextIntent.putExtras(nextBundle);
+        startActivity(nextIntent);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-
         unregisterReceiver(onComplete);
     }
-
-
 }
