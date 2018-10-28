@@ -58,8 +58,6 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //xOrigin = getIntent().getExtras().getFloat("xOrigin");
-        //yOrigin = getIntent().getExtras().getFloat("yOrigin");
         mSocket.on("all_ready", onAllReady);
 
         // delete the previous video file
@@ -106,7 +104,6 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
                 }
             }
         };
-
 
         request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mov");
         registerReceiver(onComplete,

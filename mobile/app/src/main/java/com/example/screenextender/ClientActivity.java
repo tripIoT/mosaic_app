@@ -67,8 +67,7 @@ public class ClientActivity extends AppCompatActivity {
             double d = (Double) argObject;
             return (float)d;
         } else if (argObject instanceof Integer) {
-            int i =  (Integer) argObject;
-            return i;
+            return (int) (Integer) argObject;
         }
         else {
             return -1.0f;

@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 import com.example.screenextender.DeviceGridPositionInfo;
 import com.example.screenextender.R;
+import com.example.screenextender.VideoCropActivity;
 import com.example.screenextender.VideoLoadAdminActivity;
 import com.example.screenextender.clientmanager.clientgraph.GraphFragment;
 import com.github.nkzawa.emitter.Emitter;
@@ -33,7 +34,8 @@ import org.json.JSONObject;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 
-public class ClientManagementActivity extends AppCompatActivity implements GraphFragment.OnFragmentInteractionListener, SourceSelectFragment.OnFragmentInteractionListener {
+public class ClientManagementActivity extends AppCompatActivity
+        implements GraphFragment.OnFragmentInteractionListener, SourceSelectFragment.OnFragmentInteractionListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -103,7 +105,7 @@ public class ClientManagementActivity extends AppCompatActivity implements Graph
         graphFragment = new GraphFragment();
         sourceFragment = new SourceSelectFragment();
 
-        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab =  findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
