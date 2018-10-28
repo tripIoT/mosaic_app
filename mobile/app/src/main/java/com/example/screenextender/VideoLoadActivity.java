@@ -38,7 +38,7 @@ public class VideoLoadActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         File externalStorage = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File file1 = new File(externalStorage, "Infiniscreen/vid.mp4");
+        File file1 = new File(externalStorage, "Infiniscreen/vid.mov");
         if (file1.exists()) {
             ready();
         } else {
@@ -71,7 +71,7 @@ public class VideoLoadActivity extends AppCompatActivity {
                 }
             }
         };
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mp4");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mov");
 
         registerReceiver(onComplete,
                 new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));

@@ -64,7 +64,7 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
 
         // delete the previous video file
         File file0 = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File file1 = new File(file0, "Infiniscreen/vid.mp4");
+        File file1 = new File(file0, "Infiniscreen/vid.mov");
         if (file1.exists()) {
             startIntent();
         } else {
@@ -108,7 +108,7 @@ public class VideoLoadAdminActivity extends AppCompatActivity {
         };
 
 
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mp4");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "/Infiniscreen/vid.mov");
         registerReceiver(onComplete,
                 new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
         refid = downloadManager.enqueue(request);

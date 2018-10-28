@@ -63,7 +63,7 @@ public class VideoCropActivity extends AppCompatActivity implements TextureView.
     private static final String TAG = VideoCropActivity.class.getName();
 
     // Asset video file name
-    private static final String FILE_NAME = "vid_source.mp4";
+    private static final String FILE_NAME = "vid_source.mov";
 
     // MediaPlayer instance to control playback of video file.
     MediaPlayer mMediaPlayer;
@@ -90,7 +90,7 @@ public class VideoCropActivity extends AppCompatActivity implements TextureView.
     }
 
     void initView() {
-        mTextureView = (TextureView) findViewById(R.id.textureView);
+        mTextureView = findViewById(R.id.textureView);
         // SurfaceTexture is available only after the TextureView
         // is attached to a window and onAttachedToWindow() has been invoked.
         // We need to use SurfaceTextureListener to be notified when the SurfaceTexture
@@ -150,7 +150,7 @@ public class VideoCropActivity extends AppCompatActivity implements TextureView.
         Surface surface = new Surface(surfaceTexture);
 
         File file0 = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File file1 = new File(file0, "Infiniscreen/vid.mp4");
+        File file1 = new File(file0, "Infiniscreen/vid.mov");
 
         String path = file1.getAbsolutePath();
 
